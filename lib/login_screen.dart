@@ -124,12 +124,12 @@ class StartState extends State<LoginScreen> {
               child: GestureDetector(
                 onTap: () {
                   // Write Click Listener Code Here
-                  Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) =>select(),
-                        ),
-                  );
+                  // Navigator.push(
+                  //       context,
+                  //       MaterialPageRoute(
+                  //         builder: (context) =>select(),
+                  //       ),
+                  // );
                 },
                 child: Text("Forget Password?"),
               ),
