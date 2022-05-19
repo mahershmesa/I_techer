@@ -23,7 +23,7 @@ class bottom extends StatelessWidget {
                       sliver: SliverGrid.count(
                         crossAxisSpacing: 15,
                         mainAxisSpacing: 15,
-                        crossAxisCount: 2,
+                        crossAxisCount: 4,
                         children: <Widget>[
                           GestureDetector(
                             onTap: (){

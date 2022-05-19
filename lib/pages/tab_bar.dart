@@ -78,7 +78,7 @@ class TabBarSliverAppbar extends StatelessWidget {
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
         ),
-        itemCount: 2,
+        itemCount: 5,
         itemBuilder: (context, index) => bottom(index: index),//go to bottom
       );
 
