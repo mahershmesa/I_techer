@@ -123,13 +123,8 @@ class StartState extends State<LoginScreen> {
               alignment: Alignment.centerRight,
               child: GestureDetector(
                 onTap: () {
-                  // Write Click Listener Code Here
-                  // Navigator.push(
-                  //       context,
-                  //       MaterialPageRoute(
-                  //         builder: (context) =>select(),
-                  //       ),
-                  // );
+                 // Write Click Listener Code Here
+                  
                 },
                 child: Text("Forget Password?"),
               ),
@@ -138,6 +133,12 @@ class StartState extends State<LoginScreen> {
             GestureDetector(
               onTap: () {
                 // Write Click Listener Code Here.
+                Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) =>Select(),
+                        ),
+                  );
               },
               child: Container(
                 alignment: Alignment.center,
