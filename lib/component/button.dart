@@ -37,36 +37,36 @@ class bottom extends StatelessWidget {
                               
                             ),
                           ),
-                          Container(
-                            padding: const EdgeInsets.all(2),
-                            child: Center(child: const Text("Profile",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,)),
-                            color: Colors.blueGrey,
-                          ),
-                          Container(
-                            padding: const EdgeInsets.all(2),
-                            child: Center(child: const Text("Settings",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,)),
-                            color: Colors.blueGrey,
-                          ),
-                          Container(
-                            padding: const EdgeInsets.all(2),
-                            child: Center(child: const Text("About",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,)),
-                            color: Colors.blueGrey,
-                          ),
-                          Container(
-                            padding: const EdgeInsets.all(2),
-                            child: Center(child: const Text("More",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,)),
-                            color: Colors.blueGrey,
-                          ),
-                          Container(
-                            padding: const EdgeInsets.all(2),
-                            child: Center(child: const Text("Help",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,)),
-                            color: Colors.blueGrey,
-                          ),
-                          Container(
-                            padding: const EdgeInsets.all(2),
-                            child: Center(child: const Text("Help",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,)),
-                            color: Colors.blueGrey,
-                          ),
+                          // Container(
+                          //   padding: const EdgeInsets.all(2),
+                          //   child: Center(child: const Text("Profile",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,)),
+                          //   color: Colors.blueGrey,
+                          // ),
+                          // Container(
+                          //   padding: const EdgeInsets.all(2),
+                          //   child: Center(child: const Text("Settings",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,)),
+                          //   color: Colors.blueGrey,
+                          // ),
+                          // Container(
+                          //   padding: const EdgeInsets.all(2),
+                          //   child: Center(child: const Text("About",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,)),
+                          //   color: Colors.blueGrey,
+                          // ),
+                          // Container(
+                          //   padding: const EdgeInsets.all(2),
+                          //   child: Center(child: const Text("More",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,)),
+                          //   color: Colors.blueGrey,
+                          // ),
+                          // Container(
+                          //   padding: const EdgeInsets.all(2),
+                          //   child: Center(child: const Text("Help",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,)),
+                          //   color: Colors.blueGrey,
+                          // ),
+                          // Container(
+                          //   padding: const EdgeInsets.all(2),
+                          //   child: Center(child: const Text("Help",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,)),
+                          //   color: Colors.blueGrey,
+                          // ),
                         ],
                       ),
                     ),
