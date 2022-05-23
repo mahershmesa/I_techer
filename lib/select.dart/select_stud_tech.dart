@@ -57,6 +57,7 @@
 // /////////////////////////////////////////////
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:techerr/component/button.dart';
 import 'package:techerr/pages/tab_bar.dart';
 
 class Select extends StatelessWidget {
@@ -104,10 +105,15 @@ class Select extends StatelessWidget {
                             
                           ),
                         ),
-                        Container(
-                          padding: const EdgeInsets.all(2),
-                          child: Center(child: const Text("Profile",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,)),
-                          color: Colors.blueGrey,
+                        GestureDetector(
+                          onTap: (){ Navigator.pushReplacement(context, MaterialPageRoute(
+                                builder: (context) =>buttom()//هبد
+                                  ));},/////////////////////////////
+                          child: Container(
+                            padding: const EdgeInsets.all(2),
+                            child: Center(child: const Text("Profile",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,)),
+                            color: Colors.blueGrey,
+                          ),
                         ),
                         Container(
                           padding: const EdgeInsets.all(2),

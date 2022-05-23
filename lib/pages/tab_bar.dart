@@ -27,7 +27,7 @@ class TabBarSliverAppbar extends StatelessWidget {
             },
             body: TabBarView(
               children: [
-                buildImages(),
+              //  buildImages(),
                 buildTeshear(),
               ],
             ),
@@ -74,13 +74,13 @@ class TabBarSliverAppbar extends StatelessWidget {
       ),
       );
 
-  Widget buildImages() => GridView.builder(
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
-        ),
-        itemCount: 5,
-        itemBuilder: (context, index) => bottom(index: index),//go to bottom
-      );
+  // Widget buildImages() => GridView.builder(
+  //       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+  //         crossAxisCount: 2,
+  //       ),
+  //       itemCount: 5,
+  //       itemBuilder: (context, index) => //buttom(),//go to bottom
+  //     );
 
 
     Widget buildTeshear() => GridView.builder(

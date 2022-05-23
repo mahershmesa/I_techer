@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:techerr/component/button.dart';
 import 'package:techerr/select.dart/select_stud_tech.dart';
 import 'package:techerr/signupscreen.dart';
 
@@ -23,8 +24,8 @@ class StartState extends State<LoginScreen> {
               height: 250,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(bottomLeft: Radius.circular(90)),
-                color: new Color(0xffF5591F),
-                gradient: LinearGradient(colors: [(new  Color(0xffF5591F)), new Color(0xffF2861E)],
+                color: new Color(0xFF405DE6),
+                gradient: LinearGradient(colors: [(new  Color(0xFF405DE6)), new Color(0xFF405DE6)],
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                 ),
@@ -75,11 +76,11 @@ class StartState extends State<LoginScreen> {
                 ],
               ),
               child: TextField(
-                cursorColor: Color(0xffF5591F),
+                cursorColor: Color(0xFF405DE6),
                 decoration: InputDecoration(
                   icon: Icon(
                     Icons.email,
-                    color: Color(0xffF5591F),
+                    color: Color(0xFF405DE6),
                   ),
                   hintText: "Enter Email",
                   enabledBorder: InputBorder.none,
@@ -105,12 +106,12 @@ class StartState extends State<LoginScreen> {
                 ],
               ),
               child: TextField(
-                cursorColor: Color(0xffF5591F),
+                cursorColor: Color(0xFF405DE6),
                 decoration: InputDecoration(
-                  focusColor: Color(0xffF5591F),
+                  focusColor: Color(0xFF405DE6),
                   icon: Icon(
                     Icons.vpn_key,
-                    color: Color(0xffF5591F),
+                    color: Color(0xFF405DE6),
                   ),
                   hintText: "Enter Password",
                   enabledBorder: InputBorder.none,
@@ -136,7 +137,7 @@ class StartState extends State<LoginScreen> {
                 Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) =>Select(),
+                          builder: (context) =>buttom(),
                         ),
                   );
               },
@@ -146,7 +147,7 @@ class StartState extends State<LoginScreen> {
                 padding: EdgeInsets.only(left: 20, right: 20),
                 height: 54,
                 decoration: BoxDecoration(
-                  gradient: LinearGradient(colors: [(new  Color(0xffF5591F)), new Color(0xffF2861E)],
+                  gradient: LinearGradient(colors: [(new  Color(0xFF405DE6)), new Color(0xFF405DE6)],
                       begin: Alignment.centerLeft,
                       end: Alignment.centerRight
                   ),
@@ -178,7 +179,7 @@ class StartState extends State<LoginScreen> {
                     child: Text(
                       "Register Now",
                       style: TextStyle(
-                          color: Color(0xffF5591F)
+                          color: Color(0xFF405DE6)
                       ),
                     ),
                     onTap: () {

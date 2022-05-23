@@ -7,13 +7,13 @@ class service extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 150,
-        width: 400,
-        child: Card(
-          
+    // return Container(
+    //   height: 150,
+    //     width: double.infinity,
+    //     child: Card(
+          return Card(
           child:Container(
-            width: 400,
+            width: double.infinity,
             child: CustomScrollView(
               
               primary: true,
@@ -29,13 +29,15 @@ class service extends StatelessWidget {
                             onTap: (){
                               //go to tab bar
                             },
-                            child: Container(
-                              padding: const EdgeInsets.all(2),
-                              child: Center(child: const Text("Home",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,),),
-                              color: Colors.blueGrey,
+                            // child: Container(
+                              
+                            //   width: double.infinity,
+                            //   padding: const EdgeInsets.all(1),
+                            //   child: Center(child: const Text("Home",style: TextStyle(color: Colors.white,fontSize: 20),textAlign: TextAlign.center,),),
+                            //   color: Colors.blueGrey,
                               
                               
-                            ),
+                            // ),
                           ),
                           // Container(
                           //   padding: const EdgeInsets.all(2),
@@ -73,7 +75,7 @@ class service extends StatelessWidget {
                   ],
             ),
           ),
-        )
-    );
+        );
+    
   }
 }
