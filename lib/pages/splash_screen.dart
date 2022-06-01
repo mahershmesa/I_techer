@@ -46,7 +46,7 @@ class StartState extends State<SplashScreen> {
           Container(
             decoration: BoxDecoration(
                 color: new Color(0xFF405DE6),
-                gradient: LinearGradient(colors: [(new  Color(0xFF405DE6)), new Color(0xFF405DE6)],
+                gradient: LinearGradient(colors: [(new  Color(0xFF03d8dc)), new Color(0xFFa38af2)],
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter
                 )
@@ -54,7 +54,7 @@ class StartState extends State<SplashScreen> {
           ),
           Center(
             child: Container(
-              child: Image.asset("assets/app_logo.jpg"),
+              child: Image.asset("assets/grad.png"),
             ),
           )
         ],

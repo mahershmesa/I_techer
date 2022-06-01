@@ -27,7 +27,7 @@ class StartState extends State<LoginScreen> {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(bottomLeft: Radius.circular(90)),
                 color: new Color(0xFF405DE6),
-                gradient: LinearGradient(colors: [(new  Color(0xFF405DE6)), new Color(0xFF405DE6)],
+                gradient: LinearGradient(colors: [(new  Color(0xFF03d8dc)), new Color(0xFF405DE6)],
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                 ),
@@ -40,7 +40,7 @@ class StartState extends State<LoginScreen> {
                       Container(
                         margin: EdgeInsets.only(top: 30),
                         child: Image.asset(
-                          "assets/app_logo.jpg",
+                          "assets/grad.png",
                           height: 90,
                           width: 90,
                         ),
@@ -82,7 +82,7 @@ class StartState extends State<LoginScreen> {
                 decoration: InputDecoration(
                   icon: Icon(
                     Icons.email,
-                    color: Color(0xFF405DE6),
+                    color: Color(0xFF03d8dc),
                   ),
                   hintText: "Enter Email",
                   enabledBorder: InputBorder.none,
@@ -108,12 +108,12 @@ class StartState extends State<LoginScreen> {
                 ],
               ),
               child: TextField(
-                cursorColor: Color(0xFF405DE6),
+                cursorColor: Color(0xFF03d8dc),
                 decoration: InputDecoration(
-                  focusColor: Color(0xFF405DE6),
+                  focusColor: Color(0xFF03d8dc),
                   icon: Icon(
                     Icons.vpn_key,
-                    color: Color(0xFF405DE6),
+                    color: Color(0xFF03d8dc),
                   ),
                   hintText: "Enter Password",
                   enabledBorder: InputBorder.none,
@@ -149,7 +149,7 @@ class StartState extends State<LoginScreen> {
                 padding: EdgeInsets.only(left: 20, right: 20),
                 height: 54,
                 decoration: BoxDecoration(
-                  gradient: LinearGradient(colors: [(new  Color(0xFF405DE6)), new Color(0xFF405DE6)],
+                  gradient: LinearGradient(colors: [(new  Color(0xFF03d8dc)), new Color(0xFFa38af2)],
                       begin: Alignment.centerLeft,
                       end: Alignment.centerRight
                   ),
@@ -181,7 +181,7 @@ class StartState extends State<LoginScreen> {
                     child: Text(
                       "Register Now",
                       style: TextStyle(
-                          color: Color(0xFF405DE6)
+                          color: Color(0xFFa38af2)
                       ),
                     ),
                     onTap: () {
