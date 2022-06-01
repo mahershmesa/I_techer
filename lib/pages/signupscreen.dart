@@ -19,8 +19,8 @@ class InitState extends State<SignUpScreen> {
                   height: 250,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.only(bottomLeft: Radius.circular(90)),
-                    color: new Color(0xffF5591F),
-                    gradient: LinearGradient(colors: [(new  Color(0xffF5591F)), new Color(0xffF2861E)],
+                    color: new Color(0xFF405DE6),
+                    gradient: LinearGradient(colors: [(new  Color(0xFF03d8dc)), new Color(0xFFa38af2)],
                       begin: Alignment.topCenter,
                       end: Alignment.bottomCenter,
                     ),
@@ -71,11 +71,11 @@ class InitState extends State<SignUpScreen> {
                     ],
                   ),
                   child: TextField(
-                    cursorColor: Color(0xffF5591F),
+                    cursorColor: Color(0xFF03d8dc),
                     decoration: InputDecoration(
                       icon: Icon(
                         Icons.person,
-                        color: Color(0xffF5591F),
+                        color: Color(0xFF03d8dc),
                       ),
                       hintText: "Full Name",
                       enabledBorder: InputBorder.none,
