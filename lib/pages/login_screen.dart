@@ -1,8 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:techerr/component/button.dart';
-import 'package:techerr/select.dart/select_stud_tech.dart';
-import 'package:techerr/signupscreen.dart';
+import 'package:techerr/dashboard/dashboard_student.dart';
+//import 'package:techerr/component/button.dart';
+//import 'package:techerr/pages/tab_bar.dart';
+//import 'package:techerr/select.dart/select_stud_tech.dart';
+import 'package:techerr/pages/signupscreen.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -137,7 +139,7 @@ class StartState extends State<LoginScreen> {
                 Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) =>buttom(),
+                          builder: (context) =>MakeDashboardItemsStudent(),
                         ),
                   );
               },

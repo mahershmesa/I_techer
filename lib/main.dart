@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:techerr/splash_screen.dart';
+import 'package:techerr/pages/splash_screen.dart';
 
-import 'login_screen.dart';
+import 'pages/login_screen.dart';
 
 void main() {
   runApp(MyApp());
