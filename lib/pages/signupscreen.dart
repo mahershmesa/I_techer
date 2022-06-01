@@ -16,7 +16,7 @@ class InitState extends State<SignUpScreen> {
             child: Column(
               children: [
                 Container(
-                  height: 250,
+                  height: 200,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.only(bottomLeft: Radius.circular(90)),
                     color: new Color(0xFF405DE6),
