@@ -12,7 +12,8 @@ class _testState extends State<test> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      body: GestureDetector(behavior: 
+      ,),
     );
   }
 }
