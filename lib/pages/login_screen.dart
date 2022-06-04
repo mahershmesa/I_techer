@@ -141,7 +141,7 @@ class StartState extends State<LoginScreen> {
                 Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) =>MotionTabBarPages(),
+                          builder: (context) =>NavigationPage(),
                         ),
                   );
               },
