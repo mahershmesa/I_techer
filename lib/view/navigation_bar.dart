@@ -15,7 +15,7 @@ class NavigationPage extends StatelessWidget {
       BottonNavigationController bottonNavigationController = Get.put(BottonNavigationController());
 
   final screen=[
-    Home(),
+    //Home(),
     profile(),
     MakeDashboardItemsStudent(),
     MakeDashboardItemsTeacher(),

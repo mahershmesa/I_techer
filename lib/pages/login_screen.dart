@@ -5,6 +5,7 @@ import 'package:techerr/dashboard/dashboard_student.dart';
 //import 'package:techerr/pages/tab_bar.dart';
 //import 'package:techerr/select.dart/select_stud_tech.dart';
 import 'package:techerr/pages/signupscreen.dart';
+import 'package:techerr/view/navigation_bar.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -139,7 +140,7 @@ class StartState extends State<LoginScreen> {
                 Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) =>MakeDashboardItemsStudent(),
+                          builder: (context) =>NavigationPage(),
                         ),
                   );
               },
